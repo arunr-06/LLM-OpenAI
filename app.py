@@ -1,4 +1,5 @@
 import streamlit as st
+import openai
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
