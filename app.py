@@ -1,5 +1,5 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores.faiss import FAISS
@@ -60,7 +60,8 @@ def handle_userinput(user_question):
                 "{{MSG}}", message.content), unsafe_allow_html=True)
 
 def main():
-    load_dotenv()
+    #load_dotenv()
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
