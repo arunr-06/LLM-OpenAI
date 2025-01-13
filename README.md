@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/91f3387b-cf15-4328-b6a4-38739db23bfa)
+
 <ins>**What is been built?**</ins>
 
 A conversational AI app with the capabilities of ChatGPT deployed on Streamlit cloud enabling users to upload and retrieve information from documents by means of chat.
@@ -23,10 +25,6 @@ Hence, the need for a conversational AI.
 5)Click on Process to upload the document
 6)Input question on the Chat section and press enter to get answer
 
-<ins>Image of the app:</ins>
-
-![image](https://github.com/user-attachments/assets/91f3387b-cf15-4328-b6a4-38739db23bfa)
-
 <ins>**What are the key features?**</ins>
 
 Tokenizing text using Tiktoken to upload PDF upto 200MB.
@@ -48,7 +46,7 @@ Conversation memory initialized to ensure the user input and LLM output are stor
 
 <ins>**How is it been build? - Detail**</ins>
 
-**Part 1:**
+<ins>Part 1:</ins>
 LLMs - Open AI, Models - Open AI, Vector DB - FAISS
 
 API details created and kept in .env and that would be ignored by Git using gitignore
@@ -60,7 +58,7 @@ Loops through each PDF and initializes PDF reader. Loops through each page and t
 
 One long text broken down into chunks and then these chunks are assigned vector representation based on the semantic meaning it conveys. While the user provides the input, again FAISS, provides a vector rep for it. Later the LLM matches the input and output.
 
-**Part 2:**
+<ins>Part 2:</ins>
 Embedding and LLM using Open AI and it takes place in Open AI cloud infrastructure.
 
 From LLM module -
@@ -80,7 +78,7 @@ Streamlit session state when variables initialized should not be changed in the 
 
 Conversation memory helps the LLM to remember the previous inputs.
 
-**Part 3:**
+<ins>Part 3:</ins>
 Both user input and LLM output are stored in session states and added to conversation memory.
 
 OpenAI output is based on the PDF that was uploaded.
