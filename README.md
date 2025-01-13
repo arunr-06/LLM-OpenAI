@@ -25,7 +25,7 @@ Hence, the need for a conversational AI.
 5)Click on Process to upload the document
 6)Input question on the Chat section and press enter to get answer
 
-<ins>**What are the key features?**</ins>
+<ins>**What is the key feature?**</ins>
 
 Tokenizing text using Tiktoken to upload PDF upto 200MB.
 
