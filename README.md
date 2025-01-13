@@ -1,4 +1,4 @@
-**What is been built?**
+<u>**What is been built?**</u>
 
 A conversational AI app with the capabilities of ChatGPT deployed on Streamlit cloud enabling users to upload and retrieve information from documents by means of chat.
  
