@@ -24,9 +24,10 @@ Hence, the need for a conversational AI.
 6)Input question on the Chat section and press enter to get answer
 
 <ins>Image of the app:</ins>
+
 ![image](https://github.com/user-attachments/assets/91f3387b-cf15-4328-b6a4-38739db23bfa)
 
-**What are the key features?**</ins>
+<ins>**What are the key features?**</ins>
 
 Tokenizing text using Tiktoken to upload PDF upto 200MB.
 
