@@ -2,7 +2,7 @@
 
 A conversational AI app with the capabilities of ChatGPT deployed on Streamlit cloud enabling users to upload and retrieve information from documents by means of chat.
  
- **Why is it been built?**
+ <ins>**Why is it been built?**</ins>
 
 Analysts in banking look through a host of publicly available documents to answer questions regarding the client's performance.
 
@@ -15,7 +15,7 @@ It can become tedious:
 
 Hence, the need for a conversational AI.
 
-**How to use the app?**
+<ins>**How to use the app?**</ins>
 1) Download the folder and run app.py
 2) Execute app.py followed by streamlit run
 3) App opens up in a new screen
@@ -23,14 +23,14 @@ Hence, the need for a conversational AI.
 5)Click on Process to upload the document
 6)Input question on the Chat section and press enter to get answer
 
-Image of the app:
+<ins>Image of the app:</ins>
 ![image](https://github.com/user-attachments/assets/91f3387b-cf15-4328-b6a4-38739db23bfa)
 
-**What are the key features?**
+**What are the key features?**</ins>
 
 Tokenizing text using Tiktoken to upload PDF upto 200MB.
 
-**How is it been build? - Short**
+<ins>**How is it been build? - Short**</ins>
 
 Front end Streamlit
 LLM, Vector Embedding Open AI
@@ -45,7 +45,7 @@ Vector embeddings stored in FAISS.
 Vector embeddings ranked base on the user input question and the best rank is retrieved by Open AI's LLM as output.
 Conversation memory initialized to ensure the user input and LLM output are stored during the course of conversation enabling the LLM answer follow-up questions in context to the initial question.
 
-**How is it been build? - Detail**
+<ins>**How is it been build? - Detail**</ins>
 
 **Part 1:**
 LLMs - Open AI, Models - Open AI, Vector DB - FAISS
